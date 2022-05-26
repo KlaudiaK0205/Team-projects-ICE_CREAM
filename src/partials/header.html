@@ -1,124 +1,6 @@
-<header class="header container">
-  <div class="header-container">
-    <!-- <svg class="team-list__photo-ellipse" width="100" height="100">
-      <ellipse cx="50" cy="50" rx="50" ry="50" style="fill: red" />
-    </svg> -->
-    <svg class="team-list__photo-ellipse">
-      <ellipse />
-    </svg>
-    <!-- <div class="team-list__photo-ellpise"> -->
-    <!-- <picture>
-        <source
-          srcset="
-            ./images/hero_header/desktop/ellipse-desktop.png    1x,
-            ./images/hero_header/desktop/ellipse@2x-desktop.png 2x
-          "
-          media="(min-width: 1200px)"
-          type="image/png"
-        />
-        <source
-          srcset="
-            ./images/hero_header/tablet/ellipse-tablet.png    1x,
-            ./images/hero_header/tablet/ellipse@2x-tablet.png 2x
-          "
-          media="(min-width: 768px)"
-          type="image/png"
-        />
-        <source
-          srcset="
-            ./images/hero_header/mobile/ellipse-mobile.png    1x,
-            ./images/hero_header/mobile/ellipse@2x-mobile.png 2x
-          "
-          media="(max-width: 767px)"
-          type="image/png"
-        />
-        <img src="./images/hero_header/mobile/ellipse-mobile.png" alt="John Doe " width="284" />
-      </picture> -->
-    <!-- </div> -->
-    <div class="team-list__photo-ice">
-      <picture>
-        <source
-          srcset="
-            ./images/hero_header/desktop/ice-desktop.png    1x,
-            ./images/hero_header/desktop/ice@2x-desktop.png 2x
-          "
-          media="(min-width: 1200px)"
-        />
-        <source
-          srcset="
-            ./images/hero_header/tablet/ice-tablet.png    1x,
-            ./images/hero_header/tablet/ice@2x-tablet.png 2x
-          "
-          media="(min-width: 768px)"
-        />
-        <source
-          srcset="
-            ./images/hero_header/mobile/ice-mobile.png    1x,
-            ./images/hero_header/mobile/ice@2x-mobile.png 2x
-          "
-          media="(max-width: 767px)"
-        />
-        <img src="./images/hero_header/mobile/ice-mobile.png" alt="John Doe - Product Designer" />
-      </picture>
-    </div>
-
-    <div class="team-list__photo-milk">
-      <picture>
-        <source
-          srcset="
-            ./images/hero_header/desktop/milk-desktop.png    1x,
-            ./images/hero_header/desktop/milk@2x-desktop.png 2x
-          "
-          media="(min-width: 1200px)"
-        />
-        <source
-          srcset="
-            ./images/hero_header/tablet/milk-tablet.png    1x,
-            ./images/hero_header/tablet/milk@2x-tablet.png 2x
-          "
-          media="(min-width: 768px)"
-        />
-        <!-- <source
-          srcset="
-            ./images/hero_header/mobile/milk-mobile.png    1x,
-            ./images/hero_header/mobile/milk@2x-mobile.png 2x
-          "
-          media="(max-width: 767px)"
-          type="image/png"
-        /> -->
-        <img src="./images/hero_header/tablet/milk-tablet.png" alt="John Doe - Product Designer" />
-      </picture>
-    </div>
-
-    <div class="team-list__photo-tasty">
-      <picture>
-        <source
-          srcset="
-            ./images/hero_header/desktop/tasty-desktop.png    1x,
-            ./images/hero_header/desktop/tasty@2x-desktop.png 2x
-          "
-          media="(min-width: 1200px)"
-        />
-        <source
-          srcset="
-            ./images/hero_header/tablet/tasty-tablet.png    1x,
-            ./images/hero_header/tablet/tasty@2x-tablet.png 2x
-          "
-          media="(min-width: 768px)"
-        />
-        <!-- <source
-          srcset="
-            ./images/hero_header/mobile/milk-mobile.png    1x,
-            ./images/hero_header/mobile/milk@2x-mobile.png 2x
-          "
-          media="(max-width: 767px)"
-          type="image/png"
-        /> -->
-        <img src="./images/hero_header/tablet/tasty-tablet.png" alt="tasty" />
-      </picture>
-    </div>
-
-    <nav class="navigation">
+<header class="header">
+  <div class="container">
+    <div class="header__nav">
       <a class="logo" href="./index.html">
         <img
           src="./images/hero_header/mobile/logo-mobile.png"
@@ -127,107 +9,130 @@
           height="50"
         />
       </a>
-      <ul class="navigation__list list">
-        <li class="navigation__item">
-          <a href="./index.html" class="navigation__link navigation__link-active link">Home</a>
-        </li>
-        <li class="navigation__item">
-          <a href="#blue" class="navigation__link navigation__link-active link">About us</a>
-        </li>
-        <li class="navigation__item">
-          <a href="#" class="navigation__link navigation__link-active link">How it's made?</a>
-        </li>
-        <li class="navigation__item">
-          <a href="#" class="navigation__link navigation__link-active link">Our Prodacts</a>
-        </li>
-        <li class="navigation__item">
-          <a href="#" class="navigation__link navigation__link-active link">Contact</a>
-        </li>
-      </ul>
-    </nav>
-    <button class="header-btn" type="button">Buy now</button>
+
+      <nav class="navigation">
+        <ul class="navigation__list list">
+          <li class="navigation__item">
+            <a href="./index.html" class="navigation__link link">Home</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#blue" class="navigation__link link">About us</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link link">How it's made?</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link link">Our Prodacts</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link link">Contact</a>
+          </li>
+        </ul>
+
+        <button class="header__btn-nav" type="button">Buy now</button>
+      </nav>
+    </div>
+    <!-- Down -->
     <button type="button" class="mobile-menu-burger" data-menu-open>
       <svg class="mobile-menu-burger__icon" width="20" height="12">
         <use href="./images/sprite.svg#icon-burger_menu"></use>
       </svg>
     </button>
-    <div class="header-main">
-      <h1 class="header-main-one">
-        <span class="header--accent">ice cream made with </span
-        ><span class="header--light-theme">passion</span>
-      </h1>
-      <ul class="hero-button__list list">
-        <li class="hero-button__item">
-          <button class="modal__btn1">Products</button>
-        </li>
-        <li class="hero-button__item"><button class="modal__btn1">How it's made?</button></li>
-      </ul>
-    </div>
 
-    <p class="header_title">
+    <h1 class="header__title">
+      <span
+        >ice cream <br />
+        made with </span
+      ><span class="header__title-theme">passion</span>
+    </h1>
+
+    <ul class="header__button-list list">
+      <li class="header__button-item">
+        <button class="button header__button-main">Products</button>
+      </li>
+      <li class="header__button-item">
+        <button class="button header__button-second">How it's made?</button>
+      </li>
+    </ul>
+    <p class="header__text">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
       labore et
     </p>
+
+    <svg class="header__photo-ellipse">
+      <ellipse />
+    </svg>
+
+    <picture class="header__photo-ice">
+      <source
+        srcset="
+          ./images/hero_header/desktop/ice-desktop.png    1x,
+          ./images/hero_header/desktop/ice@2x-desktop.png 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ./images/hero_header/tablet/ice-tablet.png    1x,
+          ./images/hero_header/tablet/ice@2x-tablet.png 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          ./images/hero_header/mobile/ice-mobile.png    1x,
+          ./images/hero_header/mobile/ice@2x-mobile.png 2x
+        "
+        media="(max-width: 767px)"
+      />
+      <img src="./images/hero_header/mobile/ice-mobile.png" alt="ice" />
+    </picture>
+
+    <picture class="header__photo-milk">
+      <source
+        srcset="
+          ./images/hero_header/desktop/milk-desktop.png    1x,
+          ./images/hero_header/desktop/milk@2x-desktop.png 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ./images/hero_header/tablet/milk-tablet.png    1x,
+          ./images/hero_header/tablet/milk@2x-tablet.png 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <img src="./images/hero_header/tablet/milk-tablet.png" alt="milk" />
+    </picture>
+
+    <picture class="header__photo-tasty">
+      <source
+        srcset="
+          ./images/hero_header/desktop/tasty-desktop.png    1x,
+          ./images/hero_header/desktop/tasty@2x-desktop.png 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ./images/hero_header/tablet/tasty-tablet.png    1x,
+          ./images/hero_header/tablet/tasty@2x-tablet.png 2x
+        "
+        media="(min-width: 768px)"
+      />
+
+      <img src="./images/hero_header/tablet/tasty-tablet.png" alt="tasty" />
+    </picture>
+    <div class="cafe">
+      <div class="cafe__ellipse"></div>
+      <a class="cafe__number">16</a>
+      <a class="cafe__title">cafes</a>
+    </div>
+    <div class="trucks">
+      <div class="trucks__ellipse"></div>
+      <a class="trucks__number">23</a>
+      <a class="trucks__title">food trucks</a>
+    </div>
   </div>
 </header>
-ferfgerg
-<!-- <header class="header" style="background-color: #ffb8ca">
-  <div class="header-container container">
-
-    <div class="burger">
-      <svg class="burger-menu" width="24" height="16" data-menu-open>
-          <use href="./images/sprite.svg#icon-burger_menu"></use>
-      </svg>
-
-    <nav class="navigation">
-      <a class="logo" href="./index.html">
-        <img src="/images/header/logo.png" alt="logo Ice Cream" width="199" height="50" />
-      </a>
-
-      <ul class="navigation__list list">
-        <li class="navigation__item">
-          <a href="./index.html" class="navigation__link navigation__link-active link">Home</a>
-        </li>
-        <li class="navigation__item">
-          <a href="#blue" class="navigation__link navigation__link-active link">About us</a>
-        </li>
-        <li class="navigation__item">
-          <a href="#" class="navigation__link navigation__link-active link">How it's made?</a>
-        </li>
-        <li class="navigation__item">
-          <a href="#" class="navigation__link navigation__link-active link">Our Prodacts</a>
-        </li>
-        <li class="navigation__item">
-          <a href="#" class="navigation__link navigation__link-active link">Contact</a>
-        </li>
-      </ul>
-    </nav>
-    <button class="header-btn" type="button">Buy now</button>
-  </div>
-
-
-  <main>
-    <section class="hero">
-      <div class="container">
-        <h1 class="main-header">
-          <span class="logo--accent">ice cream made with </span
-          ><span class="logo--light-theme">passion</span>
-        </h1>
-        <ul class="hero-button__list">
-          <li class="hero-button__item">
-            <button class="hero-btn hero-btn-red">Products</button>
-          </li>
-          <li class="hero-button__item"><button class="hero-btn">How it's made?</button></li>
-
-        <img src="/images/header/milk.png" alt="" width="188" />
-        <img src="/images/header/ellipse.png" alt="" width="538" />
-        <img src="/images/header/ice.png" alt="" width="236" />
-        <img src="/images/header/tasty.png" alt="" width="293" />
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-          ut labore et
-        </p>
-      </div>
-    </section>
-  </main>
-</header> -->
