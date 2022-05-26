@@ -6,7 +6,7 @@
 }
 
 .footer__title {
-    margin-left: 20px;
+    margin-left: 0px;
     margin-bottom: 43px;
 }
 
@@ -88,11 +88,7 @@
 @media screen and (min-width: 768px){
     .footer__tablet-pc {
         display: flex;
-    }
-
-    .footer__right-side {
-        position: absolute;
-        right: 0px;
+        justify-content: space-around;
     }
 
     .footer__copyrights--text {
@@ -124,14 +120,10 @@
     }
 }
 
-@media screen and (min-width: 1200px){
-
-    .footer__right-side {
-        margin-right: 120px;
-    }
-
-    .footer__title {
-        margin-left: 114px;
+@media screen and (min-width: 1280px){
+    .footer__tablet-pc {
+        display: flex;
+        justify-content: space-between;
     }
 
     .footer__title--first {
