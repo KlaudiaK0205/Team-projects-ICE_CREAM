@@ -1,6 +1,6 @@
 .gallery {
     background: linear-gradient(0deg, #fff 60%, var(--background-about) 40%);
-    max-width: 1200px;
+    // max-width: 1200px;
     margin: 0 auto;
 
     &__picture {
@@ -12,21 +12,21 @@
 
 @media screen and (min-width: 480px) {
     .gallery {
-        max-width: 480px;
-        margin: 0 auto;
+        // max-width: 480px;
+        // margin: 0 auto;
     }
 }
 
 @media screen and (min-width: 768px) {
     .gallery {
-        max-width: 768px;
-        margin: 0 auto;
+        // max-width: 768px;
+        // margin: 0 auto;
     }
 }
 
 @media screen and (min-width: 1200px) {
     .gallery {
-        max-width: 1200px;
-        margin: 0 auto;
+        // max-width: 1200px;
+        // margin: 0 auto;
     }
 }
